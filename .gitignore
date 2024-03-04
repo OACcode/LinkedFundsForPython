@@ -20,7 +20,6 @@ Mo.net Project/LinkedFundsForPython/IOFiles/Reports
 *.html
 *.orig
 *~$*
-*_Inputs.txt
 *Audit_Results1_Params.txt
 *DLL*
 *.spkg
