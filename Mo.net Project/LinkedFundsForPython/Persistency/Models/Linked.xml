@@ -3,12 +3,12 @@
   <Name>Linked</Name>
   <Parent />
   <Previous />
-  <LastModifiedBy>GreigBingham</LastModifiedBy>
-  <LastModifiedOn>2023-04-18T11:50:33.717945+01:00</LastModifiedOn>
+  <LastModifiedBy>Gbingham</LastModifiedBy>
+  <LastModifiedOn>2024-03-04T10:14:48.3712493+00:00</LastModifiedOn>
   <CreatedBy>GreigBingham</CreatedBy>
   <CreatedOn>2023-03-08T19:18:58.1339648Z</CreatedOn>
   <Folder>false</Folder>
-  <LastModified>2023-04-18T11:50:33.717945+01:00</LastModified>
+  <LastModified>2024-03-04T10:14:48.3712493+00:00</LastModified>
   <Notes />
   <IsExpanded>true</IsExpanded>
   <Inherit>false</Inherit>
@@ -771,15 +771,16 @@ Return Min(0, SterlResCF(t) + SterlRes(t + 1) / (1 + SterlIntMth()) * (1 - MortM
       <Name>UnitFund</Name>
       <Parent>Funds</Parent>
       <Previous />
-      <LastModifiedOn>0001-01-01T00:00:00</LastModifiedOn>
+      <LastModifiedBy>Gbingham</LastModifiedBy>
+      <LastModifiedOn>2024-03-04T10:14:48.3712493+00:00</LastModifiedOn>
       <CreatedBy />
       <CreatedOn xsi:nil="true" />
       <Folder>false</Folder>
-      <LastModified>0001-01-01T00:00:00</LastModified>
+      <LastModified>2024-03-04T10:14:48.3712493+00:00</LastModified>
       <Notes>Aggregate fund value for all funds</Notes>
       <IsExpanded>true</IsExpanded>
       <DataType>Double</DataType>
-      <Value>Return Equity.UnitFund(t) + FI.UnitFund(t) + Cash.UnitFund(t) + Prop.UnitFund(t)</Value>
+      <Value>Return Equity.UnitFund(t) + FI.UnitFund(t) + Cash.UnitFund(t) + Prop.UnitFund(t) ' + new item</Value>
       <Format>#,##0.00</Format>
       <Override>false</Override>
       <IsPrivate>false</IsPrivate>
