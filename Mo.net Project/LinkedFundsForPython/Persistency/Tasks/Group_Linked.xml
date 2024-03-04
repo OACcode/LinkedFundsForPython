@@ -3,12 +3,12 @@
   <Name>Group_Linked</Name>
   <Parent />
   <Previous />
-  <LastModifiedBy>clambert</LastModifiedBy>
-  <LastModifiedOn>2024-03-04T11:02:40.2073194+00:00</LastModifiedOn>
+  <LastModifiedBy>Gbingham</LastModifiedBy>
+  <LastModifiedOn>2024-03-04T13:50:15.3775771+00:00</LastModifiedOn>
   <CreatedBy>clambert</CreatedBy>
   <CreatedOn>2024-03-04T10:44:44.4338176+00:00</CreatedOn>
   <Folder>false</Folder>
-  <LastModified>2024-03-04T11:02:40.2073194+00:00</LastModified>
+  <LastModified>2024-03-04T13:50:15.3775771+00:00</LastModified>
   <Notes />
   <IsExpanded>true</IsExpanded>
   <Type>Group</Type>
@@ -39,7 +39,7 @@
     Linked.Run
     EndTime = DateTime.Now
     
-    FileName = Linked.Properties.ResultsFolder &amp; "\RunAudit.txt"
+    FileName = "RunAudit.txt"
     FileText.Write(FileName, "Audit File", False)
     FileText.Write(FileName, "Username:" &amp; UserName, True)
     FileText.Write(FileName, "Date:" &amp; EndTime, True)
